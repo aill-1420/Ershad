@@ -260,25 +260,17 @@ $data = $mysql->query($query)->fetch_array(MYSQLI_ASSOC);
         <div class="container-fluid py-1 px-3">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 ">
-                    <li class="breadcrumb-item text-sm ps-2"><a class="opacity-5 text-white" href="adviserDashboard.html">لوحة القيادة</a></li>
-                    <li class="breadcrumb-item text-sm ps-2"><a class="opacity-5 text-white" href="studentsList.html">الطلاب</a></li>
-                    <li class="breadcrumb-item text-sm ps-2"><a class="opacity-5 text-white" href="InformationStudent.html">معلومات الطالب</a></li>
+                    <li class="breadcrumb-item text-sm ps-2"><a class="opacity-5 text-white" href="dshboard_committee.php">نظرة عامة</a></li>
+                    <li class="breadcrumb-item text-sm ps-2"><a class="opacity-5 text-white" href="students_List.php">الطلاب</a></li>
+                    <li class="breadcrumb-item text-sm ps-2"><a class="opacity-5 text-white" href="information_student.php">معلومات الطالب</a></li>
                     <li class="breadcrumb-item text-sm text-white active" aria-current="page">تقارير اللقاءات</li>
                 </ol>
             </nav>
-            <div class="collapse navbar-collapse mt-sm-0 mt-2 px-0" id="navbar">
-                <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-                    <!-- Start Search -->
-                    <div class="input-group">
-                        <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" placeholder="أكتب هنا...">
-                    </div>
-                    <!-- End Search -->
-                </div>
+            <div class="collapse navbar-collapse mt-sm-0 mt-2 px-0" id="navbar" style="height: 4vw;">
                 <!-- Start navigation list -->
                 <ul class="navbar-nav me-auto ms-0 justify-content-end">
                     <li class="nav-item px-3 d-flex align-items-center">
-                        <a href="editProfile.html" class="nav-link text-white p-0">
+                        <a href="edit_profile_committee.php" class="nav-link text-white p-0">
                             <i class="fa fa-user fixed-plugin-button-nav cursor-pointer"></i>
                         </a>
                     </li>

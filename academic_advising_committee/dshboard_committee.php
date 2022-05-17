@@ -159,20 +159,11 @@ include '../confi/app.php';
         <div class="container-fluid py-1 px-3">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 ">
-                    <li class="breadcrumb-item text-sm ps-2"><a class="opacity-5 text-white" href="dshboard_committee.php">لوحة القيادة</a></li>
                     <li class="breadcrumb-item text-sm text-white active" aria-current="page">نظرة عامة</li>
                 </ol>
                 <!-- <h6 class="font-weight-bolder text-white mb-0">RTL</h6>-->
             </nav>
-            <div class="collapse navbar-collapse mt-sm-0 mt-2 px-0" id="navbar">
-                <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-                    <!-- Start Search -->
-                    <div class="input-group">
-                        <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" placeholder="أكتب هنا...">
-                    </div>
-                    <!-- End Search -->
-                </div>
+            <div class="collapse navbar-collapse mt-sm-0 mt-2 px-0" id="navbar"  style="height: 4vw;">
                 <!-- Start navigation list -->
                 <ul class="navbar-nav me-auto ms-0 justify-content-end">
                     <li class="nav-item px-3 d-flex align-items-center">
@@ -290,7 +281,7 @@ include '../confi/app.php';
                                     <h4 class="mb-2">عدد المرشدين</h4>
                                     <a class="text-dark font-weight-bold ps-1 mb-0 icon-move-left mt-auto" href="adviser_list.php">
                                         المزيد
-                                        <i class="fas fa-arrow-left text-sm ms-1" aria-hidden="true"></i>
+                                        <i class="icm icon-arrow-left text-sm ms-1" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>
@@ -317,15 +308,15 @@ include '../confi/app.php';
                                 <div class="d-flex flex-column h-100" style="padding: 1.5vw;">
                                     <h2 class="font-weight-bolder">
                                         <?php
-                                        $query = "SELECT * FROM `meeting`";
+                                        $query = "SELECT * FROM `students`";
                                         $number = $mysql->query($query)->fetch_all(MYSQLI_ASSOC);
                                         echo count($number);
                                         ?>
                                     </h2>
-                                    <h4 class="mb-2">عدد اللقاءات</h4>
-                                    <a class="text-dark font-weight-bold ps-1 mb-0 icon-move-left mt-auto" href="meeting.php">
+                                    <h4 class="mb-2">عدد الطلاب</h4>
+                                    <a class="text-dark font-weight-bold ps-1 mb-0 icon-move-left mt-auto" href="students_List.php">
                                         المزيد
-                                        <i class="fas fa-arrow-left text-sm ms-1" aria-hidden="true"></i>
+                                        <i class="icm icon-arrow-left text-sm ms-1" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>

@@ -466,15 +466,8 @@ $success = true;
                     <li class="breadcrumb-item text-sm text-white active" aria-current="page">معلومات الطالب</li>
                 </ol>
             </nav>
-            <div class="collapse navbar-collapse mt-sm-0 mt-2 px-0" id="navbar">
-                <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-                    <!-- Start Search -->
-                    <div class="input-group">
-                        <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" placeholder="أكتب هنا...">
-                    </div>
-                    <!-- End Search -->
-                </div>
+            <div class="collapse navbar-collapse mt-sm-0 mt-2 px-0" id="navbar" style="height: 4vw;">
+
                 <!-- Start navigation list -->
                 <ul class="navbar-nav me-auto ms-0 justify-content-end">
                     <li class="nav-item px-3 d-flex align-items-center">

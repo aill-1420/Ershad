@@ -152,15 +152,8 @@ include '../confi/app.php';
                 </ol>
                 <!-- <h6 class="font-weight-bolder text-white mb-0">RTL</h6>-->
             </nav>
-            <div class="collapse navbar-collapse mt-sm-0 mt-2 px-0" id="navbar">
-                <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-                    <!-- Start Search -->
-                    <div class="input-group">
-                        <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" placeholder="أكتب هنا...">
-                    </div>
-                    <!-- End Search -->
-                </div>
+            <div class="collapse navbar-collapse mt-sm-0 mt-2 px-0" id="navbar" style="height: 4vw;">
+
                 <!-- Start navigation list -->
                 <ul class="navbar-nav me-auto ms-0 justify-content-end">
                     <li class="nav-item px-3 d-flex align-items-center">
@@ -278,7 +271,7 @@ include '../confi/app.php';
                                     <h4 class="mb-2">عدد الطلاب</h4>
                                     <a class="text-dark font-weight-bold ps-1 mb-0 icon-move-left mt-auto" href="student_list.php">
                                         المزيد
-                                        <i class="fas fa-arrow-left text-sm ms-1" aria-hidden="true"></i>
+                                        <i class="icm icon-arrow-left text-sm ms-1" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>
@@ -314,7 +307,7 @@ include '../confi/app.php';
                                     <h4 class="mb-2">عدد اللقاءات</h4>
                                     <a class="text-dark font-weight-bold ps-1 mb-0 icon-move-left mt-auto" href="Schedule_meeting_adviser%20.php">
                                         المزيد
-                                        <i class="fas fa-arrow-left text-sm ms-1" aria-hidden="true"></i>
+                                        <i class="icm icon-arrow-left text-sm ms-1" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>

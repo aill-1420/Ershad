@@ -428,20 +428,12 @@ $d = $mysql->query($q)->fetch_all(MYSQLI_ASSOC);
         <div class="container-fluid py-1 px-3">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 ">
-                    <li class="breadcrumb-item text-sm ps-2"><a class="opacity-5 text-white" href="dashboard_adviser.php">لوحة القيادة</a></li>
+                    <li class="breadcrumb-item text-sm ps-2"><a class="opacity-5 text-white" href="dshboard_committee.php">نظرة عامة</a></li>
                     <li class="breadcrumb-item text-sm ps-2"><a class="opacity-5 text-white" href="student_list.php">الطلاب</a></li>
                     <li class="breadcrumb-item text-sm text-white active" aria-current="page">معلومات الطالب</li>
                 </ol>
             </nav>
-            <div class="collapse navbar-collapse mt-sm-0 mt-2 px-0" id="navbar">
-                <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-                    <!-- Start Search -->
-                    <div class="input-group">
-                        <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" placeholder="أكتب هنا...">
-                    </div>
-                    <!-- End Search -->
-                </div>
+            <div class="collapse navbar-collapse mt-sm-0 mt-2 px-0" id="navbar" style="height: 4vw;">
                 <!-- Start navigation list -->
                 <ul class="navbar-nav me-auto ms-0 justify-content-end">
                     <li class="nav-item px-3 d-flex align-items-center">

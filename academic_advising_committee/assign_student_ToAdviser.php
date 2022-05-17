@@ -188,7 +188,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             <li class="nav-item">
                 <a class="nav-link" href="dshboard_committee.php">
                     <div class="icon icon-shape icon-sm border-radius-md text-center ms-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-tv-2 text-primary text-sm opacity-10"></i>
+                        <i class="ni ni-tv-2 text-secondary text-sm opacity-10"></i>
                     </div>
                     <span class="nav-link-text me-1">نظرة عامة</span>
                 </a>
@@ -242,23 +242,15 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         <div class="container-fluid py-1 px-3">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 ">
-                    <li class="breadcrumb-item text-sm ps-2"><a class="opacity-5 text-white" href="committeeDashboard.html">لوحة القيادة</a></li>
+                    <li class="breadcrumb-item text-sm ps-2"><a class="opacity-5 text-white" href="dshboard_committee.php">نظرة عامة</a></li>
                     <li class="breadcrumb-item text-sm text-white active" aria-current="page">اسناد الطالب الى مرشد</li>
                 </ol>
             </nav>
-            <div class="collapse navbar-collapse mt-sm-0 mt-2 px-0" id="navbar">
-                <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-                    <!-- Start Search -->
-                    <div class="input-group">
-                        <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" placeholder="أكتب هنا...">
-                    </div>
-                    <!-- End Search -->
-                </div>
+            <div class="collapse navbar-collapse mt-sm-0 mt-2 px-0" id="navbar" style="height: 4vw;">
                 <!-- Start navigation list -->
                 <ul class="navbar-nav me-auto ms-0 justify-content-end">
                     <li class="nav-item px-3 d-flex align-items-center">
-                        <a href="editProfile.html" class="nav-link text-white p-0">
+                        <a href="edit_profile_committee.php" class="nav-link text-white p-0">
                             <i class="fa fa-user fixed-plugin-button-nav cursor-pointer"></i>
                         </a>
                     </li>
@@ -289,8 +281,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <a class="dropdown-item border-radius-md" href="javascript:;">
                                     <div class="d-flex py-1">
                                         <div class="my-auto">
-                                            <img src=".
-                                                              /assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm bg-gradient-dark   ms-3 ">
+                                            <img src="./assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm bg-gradient-dark   ms-3 ">
                                         </div>
                                         <div class="d-flex flex-column justify-content-center">
                                             <h6 class="text-sm font-weight-normal mb-1">
@@ -345,7 +336,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <!-- Start body content -->
     <div class="container-fluid py-4" >
-        <div class="card" >
+        <div class="card"  style="height: 35vw;">
             <?php
             if (isset($success) && $success == TRUE) { ?>
                 <div class="alert alert-success" role="alert">
@@ -353,7 +344,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </div>
             <?php }
             $SUCCESS = FALSE; ?>
-            <div class="card-body p-3" >
+            <div class="card-body p-3">
                 <hr style="width: 100%; color: darkgray; align-content: center;">
                 <div style="height: 1.5vw;"></div>
 
@@ -367,7 +358,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                     $t = $mysql->query($query)->fetch_all(MYSQLI_ASSOC);
                     ?>
                     <select class="group-content" name="adviser" id="studentWithOutAdviser" style="color: #5B5A72;">
-                        <option>  اختر الطلاب المراد اسنادهم</option>
+                        <option>  اختر المرشد</option>
                         <?php foreach($t as $b) { ?>
                             <option value="<?php echo $b['id'] ?>"><?php echo $b['full_name'] ?></option>
                         <?php } ?>
@@ -390,9 +381,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
                     </div>
             </div>
-                    <div class="form-container" style="padding-top: 10vw;">
+                    <div class="form-container" style="padding: 20.5vw 0vw 1vw;">
                         <div class="row">
-                            <div class="col-lg-6 mb-lg-0 mb-4">
+                            <div class="col-lg-8 mb-lg-0 mb-4">
+                            </div>
+                            <div class="col-lg-3 mb-lg-0 mb-4">
                                 <button class="btn">إسناد</button>
                             </div>
                         </div>
@@ -411,7 +404,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <!--==========================================================================================-->
     <!-- Start Footer -->
-    <footer class="footer pt-3  ">
+    <footer class="footer pt-3  " style="margin-top: 1vw">
         <div class="container-fluid">
             <div class="row align-items-center justify-content-lg-between">
                 <div class="col-lg-6 mb-lg-0 mb-4">

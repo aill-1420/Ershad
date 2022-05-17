@@ -109,7 +109,7 @@ $data = $mysql->query($query)->fetch_all(MYSQLI_ASSOC);
             <li class="nav-item">
                 <a class="nav-link" href="dshboard_committee.php">
                     <div class="icon icon-shape icon-sm border-radius-md text-center ms-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-tv-2 text-primary text-sm opacity-10"></i>
+                        <i class="ni ni-tv-2 text-secondary text-sm opacity-10"></i>
                     </div>
                     <span class="nav-link-text me-1">نظرة عامة</span>
                 </a>
@@ -133,7 +133,7 @@ $data = $mysql->query($query)->fetch_all(MYSQLI_ASSOC);
             <li class="nav-item">
                 <a class="nav-link active" href="complaints_List.php">
                     <div class="icon icon-shape icon-sm border-radius-md text-center ms-2 d-flex align-items-center justify-content-    center">
-                        <i class="icm icon-list-alt text-secondary text-sm opacity-10"></i>
+                        <i class="icm icon-list-alt text-primary text-sm opacity-10"></i>
                     </div>
                     <span class="nav-link-text me-1">شكاوي الطلاب</span>
                 </a>
@@ -163,24 +163,17 @@ $data = $mysql->query($query)->fetch_all(MYSQLI_ASSOC);
         <div class="container-fluid py-1 px-3">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 ">
-                    <li class="breadcrumb-item text-sm ps-2"><a class="opacity-5 text-white" href="dshboard_committee.php">لوحة القيادة</a></li>
+                    <li class="breadcrumb-item text-sm ps-2"><a class="opacity-5 text-white" href="dshboard_committee.php">نظرة عامة</a></li>
                     <li class="breadcrumb-item text-sm text-white active" aria-current="page">شكاوى الطلاب</li>
                 </ol>
                 <!-- <h6 class="font-weight-bolder text-white mb-0">RTL</h6>-->
             </nav>
-            <div class="collapse navbar-collapse mt-sm-0 mt-2 px-0" id="navbar">
-                <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-                    <!-- Start Search -->
-                    <div class="input-group">
-                        <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" placeholder="أكتب هنا...">
-                    </div>
-                    <!-- End Search -->
-                </div>
+            <div class="collapse navbar-collapse mt-sm-0 mt-2 px-0" id="navbar"  style="height: 4vw;">
+
                 <!-- Start navigation list -->
                 <ul class="navbar-nav me-auto ms-0 justify-content-end">
                     <li class="nav-item px-3 d-flex align-items-center">
-                        <a href="editProfile.html" class="nav-link text-white p-0">
+                        <a href="edit_profile_committee.php" class="nav-link text-white p-0">
                             <i class="fa fa-user fixed-plugin-button-nav cursor-pointer"></i>
                         </a>
                     </li>
@@ -270,7 +263,7 @@ $data = $mysql->query($query)->fetch_all(MYSQLI_ASSOC);
 
         <!--Start forth row -->
         <div class="row my-4">
-            <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
+            <div class="col-lg-12 col-md-6 mb-md-0 mb-4" style="margin-top: -2vw;">
                 <div class="card" style="padding: 0vw; height: 32vw; overflow-y: scroll;">
                     <table id="list">
                         <tr>
