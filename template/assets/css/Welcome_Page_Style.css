@@ -1,0 +1,348 @@
+/* 
+Welcome Page Styles
+Content:
+1. Page Scroll 
+2. Page Style 
+3. Background SVG shapes
+4. Header Styles
+5. Footer Styles
+6. Forms Styles
+7. Slideshow Styles
+*/
+/* ================================= */
+
+/* 1. Page Scroll */
+html {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+/* width */
+::-webkit-scrollbar {
+    background-color: #aaa;
+    width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;             
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 6px;
+    transition: background-color .2s linear, width .2s ease-in-out;
+    -webkit-transition: background-color .2s linear, width .2s ease-in-out;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/* ================================= */
+
+/* 2. Page Style */
+.u-clearfix:after,
+.u-clearfix:before {
+    content: '';
+    display: table;
+}
+ /* Body Height*/
+.u-section-1 .u-sheet-1 {
+    min-height: 558px;
+}
+/* Body Width*/
+.u-section-1 .u-group-1 {
+    width: 1070px;
+    min-height: 471px;
+    margin: 27px auto 60px;
+}
+.u-section-1 .u-shape-1 {
+    width: 1169px;
+    height: 709px;
+    margin: -373px auto 0 -342px;
+}
+.u-section-1 .u-shape-2 {
+    width: 1196px;
+    height: 1196px;
+    background-image: none;
+    margin: -1196px auto 0 -393px;
+}  
+
+/* ================================= */
+
+/* 3. Background SVG shapes */
+/* Background SVG shape position */
+.u-container-layout {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+}
+/* Background SVG Shapes*/
+  .u-shape-circle,
+  .u-shape-circle:before,
+  .u-shape-circle > .u-container-layout {
+    border-radius: 50%;
+}
+.u-svg-link {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+}
+.u-svg-content {
+    width: 0;
+    height: 0;
+}
+.u-palette-4-base {
+    color: #ffffff;
+    background-color: #D5EBEE; /*All circle color*/
+      opacity: 60%;
+}
+.u-border-grey-15,
+  .u-separator-grey-15:after {
+    border-color: #d9d9d9;
+    stroke: #d9d9d9;
+}
+.u-text-palette-4-light-3 .u-svg-link {
+    fill: #97CADB;
+      opacity: 60%;
+}
+
+/* ================================= */
+
+/* 4. Header Styles */
+.u-header.u-sticky {
+    position: fixed;
+    top: 0;
+}
+@supports (position: sticky) {
+   .u-header.u-sticky {
+      position: sticky;
+    }
+}
+/* Header Size */
+.u-header .u-image-1 {
+    width: 59px;
+    height: 42px;
+    margin: 21px 0 0 auto;
+}
+/* Logo Size */
+.u-image {
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+  
+/* ================================= */
+ 
+/* 5. Footer Styles */
+/* Footer Background*/
+.u-grey-80{
+    color: #ffffff;
+    background-color: #2F3535;
+  }
+/* Footer Text Style */
+.u-backlink {
+    position: relative;
+    text-align-last: center;
+    padding: 0.3vw;
+}
+.u-backlink a:first-letter {
+   text-transform: capitalize;
+}
+.u-backlink a,
+.u-backlink p {
+    display: inline-block;
+}
+.u-backlink span {
+    font-size: 0.8rem;
+}
+.u-backlink span,
+.u-backlink .u-link:hover {
+    text-decoration: none;
+}
+.u-text-default {
+    display: table;
+    align-self: flex-start;
+}
+/* Footer text color */
+.u-grey-80 a{
+    color: #B6CFDA;
+    text-decoration: underline;
+}
+  
+/* ================================= */
+
+/* 6. Forms Styles */
+/* The popup form - hidden by default */
+#signUpPopUp{
+    display: none;
+}
+#signInPopUp{
+    display: none;
+}
+.signUp-popup, .signIn-popup {
+    position: fixed;
+    top: 0vw;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px #AEADBF;
+    z-index: 20;
+    background-color: rgb(91,90,114,0.7); 
+    height: 100%; 
+    width: 100%;
+    direction: rtl;
+    overflow: inherit;
+}
+/* Add styles to the form container */
+.signUp-container{
+    max-width: 70%;
+    height: auto;
+    padding: 2vw;;
+    background-color: white;
+    border-radius: 15px;
+    margin: 3vw 15vw;
+}
+.signIn-container{
+    max-width: 40%;
+    height: auto;
+    padding: 2vw;;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10vw 30vw;                          
+}
+.signUp-container label,
+.signIn-container label{
+    color: #02457A;
+    font-size: 18px;
+}
+/* Full-width input fields */
+.signUp-container input[type=email],
+.signIn-container input[type=email],
+.signUp-container input[type=password],
+.signIn-container  input[type=password],
+.signUp-container input[type=text],
+.signUp-select{
+    width: 100%;
+    padding: 0.5vw;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 15px;
+}
+/* When the inputs get focus, do something */
+.signUp-container input[type=email]:focus,
+.signIn-container input[type=email]:focus,
+.signUp-container input[type=password]:focus,
+.signIn-container input[type=password]:focus,
+.signUp-container input[type=text]:focus,
+.signUp-select:focus{
+    background-color: #ddd;
+    outline: none;
+}
+/* Set a style for the submit/login button */
+.signUp-container .btn,
+.signIn-container .btn{
+    background-color: #02457A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+    text-align-last: center;
+}
+/* Add a red background color to the cancel button */
+    .signUp-container .cancel,
+    .signIn-container .cancel{
+    background-color: #97CADB;
+    text-align-last: center;
+}
+/* Add some hover effects to buttons */
+.signUp-container .btn:hover,
+.open-button:hover,
+.signIn-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+/* ================================= */
+
+/* 7. Slideshow Styles */
+.mySlides {
+    display: none;
+    width: 70vw;
+    margin-left: 10%;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    margin: auto;
+}
+/* title text */
+.titleText{
+    color: #02457A;
+    font-size: 32px;
+    font-weight: 700;
+    width: 82%;
+    text-align: right;
+    top: 10vw;
+    position: absolute;
+    right: -8vw;
+}
+/* text  */
+.text {
+    color: #001B48;
+    font-size: 28px;
+    position: absolute;
+    right: -8vw;
+    top: 16vw;
+}
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.8s ease;
+}
+.dots .active {
+    background-color: #717171;
+}
+/* Fading animation */
+.w3-animate-top {
+    position: relative;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1;}
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1;}
+}
+
+/* ================================= */
+
+/* 8. Sign Button */
+.signBtn{
+    background: #018ABE;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px #02457A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0.5vw 2vw;
+    margin: 0.5vw;
+    cursor: pointer;
+}
+.signBtn:hover{
+    opacity: 0.4;
+    color: #fff;
+}
