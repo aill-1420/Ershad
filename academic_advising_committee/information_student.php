@@ -512,7 +512,7 @@ $d = $mysql->query($q)->fetch_all(MYSQLI_ASSOC);
                                 </ul>
                             </li>
                             <li class="nav-item px-3 d-flex align-items-center">
-                                <a href="edit_profile_committee.php" class="nav-link text-white p-0">
+                                <a href="../student/logout.php" class="nav-link text-white p-0">
                                     <i class="icm icon-power-off fixed-plugin-button-nav cursor-pointer"></i>
                                 </a>
                             </li>
@@ -589,7 +589,13 @@ $d = $mysql->query($q)->fetch_all(MYSQLI_ASSOC);
                                         <div class="infromation-group">
                                             <label class="group-title">المرشد الأكاديمي</label>
                                             <div>
-                                                <p class="group-content"><?php echo $data['gpa'] ?></p>
+                                                <p class="group-content">
+                                                <?php
+                                                $query = "SELECT * FROM acadmic_advising WHERE id =".$data['adviser_id'];
+                                                $b = $mysql->query($query)->fetch_array(MYSQLI_ASSOC);
+                                                echo $b['full_name']
+                                                ?>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>

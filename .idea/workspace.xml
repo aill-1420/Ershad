@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7eaf5769-8cc1-463b-b1e7-0086d49e9aa8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projct.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_adviser/Schedule_meeting_adviser .php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_adviser/Schedule_meeting_adviser .php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_adviser/dashboard_adviser.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_adviser/dashboard_adviser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_adviser/edit_profile_adviser.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_adviser/edit_profile_adviser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_adviser/information_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_adviser/information_student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_adviser/metting_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_adviser/metting_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_adviser/student_advising_file.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_adviser/student_advising_file.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_adviser/student_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_adviser/student_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_advising_committee/adviser_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_advising_committee/adviser_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_advising_committee/assign_student_ToAdviser.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_advising_committee/assign_student_ToAdviser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_advising_committee/complaints_List.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_advising_committee/complaints_List.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_advising_committee/dshboard_committee.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_advising_committee/dshboard_committee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_advising_committee/edit_profile_committee.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_advising_committee/edit_profile_committee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_advising_committee/information_Adviser.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_advising_committee/information_Adviser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_advising_committee/information_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_advising_committee/information_student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_advising_committee/metting_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_advising_committee/metting_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_advising_committee/sentComplaint.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_advising_committee/sentComplaint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_advising_committee/student_advising_file.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_advising_committee/student_advising_file.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academic_advising_committee/students_List.php" beforeDir="false" afterPath="$PROJECT_DIR$/academic_advising_committee/students_List.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confi/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/confi/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/create_advising_file.php" beforeDir="false" afterPath="$PROJECT_DIR$/student/create_advising_file.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/edit_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/student/edit_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/listComplaint.php" beforeDir="false" afterPath="$PROJECT_DIR$/student/listComplaint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/metting.php" beforeDir="false" afterPath="$PROJECT_DIR$/student/metting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/sentComplaint.php" beforeDir="false" afterPath="$PROJECT_DIR$/student/sentComplaint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/studentHome.php" beforeDir="false" afterPath="$PROJECT_DIR$/student/studentHome.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/view_advising_file.php" beforeDir="false" afterPath="$PROJECT_DIR$/student/view_advising_file.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="29Won1Xhx69tHGZ8vfL4IkZlOzu" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7eaf5769-8cc1-463b-b1e7-0086d49e9aa8" name="Changes" comment="" />
+      <created>1653238365978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653238365978</updated>
+      <workItem from="1653238367471" duration="3600000" />
+      <workItem from="1653389752782" duration="3958000" />
+      <workItem from="1653418658077" duration="3989000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

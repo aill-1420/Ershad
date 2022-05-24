@@ -1,10 +1,10 @@
 <?php
 $config = [
     'hostname' => 'localhost' ,
-    'username' => 'root',
-    'password' => '',
+    'username' => 'a',
+    'password' => 'a',
     'dbname'   => 'ershad2',
-    'port' => '3306'
+    'port' => '3307'
 ];
 
 

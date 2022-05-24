@@ -243,7 +243,7 @@ include '../confi/app.php';
                                 </ul>
                             </li>
                             <li class="nav-item px-3 d-flex align-items-center">
-                                <a href="edit_profile_committee.php" class="nav-link text-white p-0">
+                                <a href="../student/logout.php" class="nav-link text-white p-0">
                                     <i class="icm icm icon-power-off fixed-plugin-button-nav cursor-pointer"></i>
                                 </a>
                             </li>
@@ -312,7 +312,7 @@ include '../confi/app.php';
                                             <h2 class="font-weight-bolder">
                                                 <!--count all meetings -->
                                                 <?php
-                                                $query = "SELECT * FROM `reservation`";
+                                                $query = "SELECT * FROM `meeting` WHERE `acadmic_advising_id`=".$_SESSION['userid'];
                                                 $number = $mysql->query($query)->fetch_all(MYSQLI_ASSOC);
                                                 echo count($number);
                                                 ?>

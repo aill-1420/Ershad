@@ -444,7 +444,7 @@ $metting = $mysql->query($queryMetting)->fetch_all(MYSQLI_ASSOC);
                                 </ul>
                             </li>
                             <li class="nav-item px-3 d-flex align-items-center">
-                                <a href="edit_profile_committee.php" class="nav-link text-white p-0">
+                                <a href="../student/logout.php" class="nav-link text-white p-0">
                                     <i class="icm icon-power-off fixed-plugin-button-nav cursor-pointer"></i>
                                 </a>
                             </li>
@@ -541,7 +541,7 @@ $metting = $mysql->query($queryMetting)->fetch_all(MYSQLI_ASSOC);
                                         <!--Start forth row -->
                                         <div class="row">
                                             <?php
-                                            $query = "SELECT * FROM meeting WHERE acadmic_advising_id=".$data['id'];
+                                            $query = "SELECT * FROM `reservation` INNER JOIN students ON students.id = reservation.student_id INNER JOIN meeting ON reservation.metting_id = meeting.id";
                                             $meeting = $mysql->query($query)->fetch_all(MYSQLI_ASSOC);
                                             ?>
                                             <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
@@ -562,7 +562,7 @@ $metting = $mysql->query($queryMetting)->fetch_all(MYSQLI_ASSOC);
                                                                 <td><?php echo $time->format('h:i:s A'); ?></td>
                                                                 <td><?php echo $m['duration'] ?></td>
                                                                 <td><?php echo $m['place'] ?></td>
-                                                                <td><?php echo $m['place'] ?></td>
+                                                                <td><?php echo $m['full_name'] ?></td>
                                                             </tr>
                                                         <?php } ?>
                                                     </table>

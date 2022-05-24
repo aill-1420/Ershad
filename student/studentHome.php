@@ -297,7 +297,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['complain'] == 1) {
                         <!-- End Dropdown Menu -->
                     </li>
                     <li class="nav-item px-2 d-flex align-items-center icon-lg">
-                        <a href="" class="nav-link text-success font-weight-bold px-2">
+                        <a href="logout.php" class="nav-link text-success font-weight-bold px-2">
                             <i class="fa fa-power-off me-sm-1"></i>
                             <span class="d-sm-inline d-none"></span>
                         </a>

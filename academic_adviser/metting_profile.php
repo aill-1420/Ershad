@@ -329,7 +329,7 @@ $data = $mysql->query($query)->fetch_array(MYSQLI_ASSOC);
                                 </ul>
                             </li>
                             <li class="nav-item px-3 d-flex align-items-center">
-                                <a href="edit_profile_committee.php" class="nav-link text-white p-0">
+                                <a href="../student/logout.php" class="nav-link text-white p-0">
                                     <i class="icm icm icon-power-off fixed-plugin-button-nav cursor-pointer"></i>
                                 </a>
                             </li>
