@@ -19,6 +19,7 @@ function redirect($url) {
     header('Location: '.$url);
     ob_end_flush();
     die();
+
 }
 
 ?>
