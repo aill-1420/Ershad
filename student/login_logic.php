@@ -13,6 +13,7 @@ if($_POST['login_user_type'] == 'student') {
         $result = $user->fetch_array();
         if ($result['password'] == $password) {
 
+
             $_SESSION = [];
             $_SESSION['name'] = $result['full_name'];
             $_SESSION['email'] = $email;
