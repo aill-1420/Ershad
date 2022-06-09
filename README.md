@@ -35,6 +35,9 @@ The Second, Add  phpMyAdmin manually to this path by:
 
  After that turn on laragon:
 - click on start all
+- Click on the Database button, the phpMyadmin page will open, enter the username and password، the default user is root  and the password is not set. 
+Select your preferred language. 
+Log in to phpMyAdmin by clicking the Go button.
 -  open up your browser (Chrome, Firefox or Edge) then navigate to http://localhost/
 
 Now the website will open and you can browse
