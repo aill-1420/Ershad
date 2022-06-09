@@ -5,7 +5,7 @@ This website was designed and programmed and submitted for a graduation project 
 All rights reserved to:
 
 Aysha Khaled Omar Basharaf s438000372@st.uqu.edu.sa
-‎Sahar Abdullah Mohammad Alzhrani s438001962@st.uqu.edu.sa
+Sahar Abdullah Mohammad Alzhrani s438001962@st.uqu.edu.sa
 Ghalia Ali Saleh Alhrthi s438013512@st.uqu.edu.sa
 Raghad Thamer Mohammed Almatrafi s438008440@st.uqu.edu.sa
 
