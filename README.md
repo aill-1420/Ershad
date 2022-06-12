@@ -38,6 +38,7 @@ The Second, Add  phpMyAdmin manually to this path by:
 - Click on the Database button, the phpMyadmin page will open, enter the username and password، the default user is root  and the password is not set. 
 Select your preferred language. 
 Log in to phpMyAdmin by clicking the Go button.
+- go to the export option to add the database, choose ershad.sql from the project folder and click on Go button 
 -  open up your browser (Chrome, Firefox or Edge) then navigate to http://localhost/
 
 Now the website will open and you can browse
